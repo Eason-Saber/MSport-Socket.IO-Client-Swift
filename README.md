@@ -1,3 +1,6 @@
+**> 替换repositoryURL到MSport库的[Starscream](https://github.com/Eason-Saber/MSport-Starscream/tree/Replace-TCPTransport)**
+
+
 [![Build Status](https://travis-ci.org/socketio/socket.io-client-swift.svg?branch=master)](https://travis-ci.org/socketio/socket.io-client-swift)
 
 # Socket.IO-Client-Swift
