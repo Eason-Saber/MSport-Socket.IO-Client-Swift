@@ -11,7 +11,12 @@ let package = Package(
         .package(url: "https://github.com/Eason-Saber/MSport-Starscream", .branch("Replace-TCPTransport"))
     ],
     targets: [
-        .target(name: "SocketIO", dependencies: ["Starscream"]),
+        .target(
+            name: "SocketIO",
+            dependencies: [
+                .product(name: "Starscream", package: "MSport-Starscream")
+            ]
+        ),
         .testTarget(name: "TestSocketIO", dependencies: ["SocketIO"]),
     ]
 )
